@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Public-Pixel;
+    src: url('../fonts/Public-pixel-font/PublicPixel-z84yD.ttf') format(truetype);
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(125, 125, 125, 0) 75%, rgba(0, 0, 0, 1) 85%), url('../images/background_1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Public-Pixel", sans-serif;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0.5rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgb(60, 190, 212);
+    transition: 0.3s;
+}
+
+.nav-links li:hover {
+    transform: scale(0.93);
+    transition: 0.3s;
+}
+
+#logo a:hover{
+    cursor: pointer;
+    transform: scale(0.97);
+    transition: 0.3s;
+    color: rgb(60, 190, 212);
+}
+
+#logo-sword-image{
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+}
+
+#main-category-container{
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.category-containers {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 1px rgb(255, 255, 255);
+}
+
+#main-category-container>*:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(6, 121, 141);
+    -webkit-box-shadow: 0 0 5px rgb(118, 236, 240);
+    -moz-box-shadow: 0 0 5px rgb(118, 236, 240);
+    box-shadow: 0 0 5px rgb(118, 236, 240);
+}
+
+.category-images {
+    width: 225px;
+    height: 225px;
+    padding: 3rem;
+}
+
+.category-text {
+    font-size: 1.3rem;
+}

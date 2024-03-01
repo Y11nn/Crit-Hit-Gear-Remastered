@@ -110,4 +110,6 @@ html,body {
 
 .category-text {
     font-size: 1.3rem;
+    text-align: center;
+    color: white;
 }
